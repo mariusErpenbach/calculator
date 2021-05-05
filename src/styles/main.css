@@ -1,3 +1,41 @@
-
+#calcBorderBox {
+  height: auto;
+  width: 30em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-color: peru;
+  border-style: solid;
+  border-radius: 2%;
+}
+#calcBorderBox #calculatorBox {
+  height: 80%;
+  width: 90%;
+  border-color: peru;
+  border-style: dotted;
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+}
+#calcBorderBox #calculatorBox #numPad {
+  border-color: peru;
+  border-style: dotted;
+  width: 100%;
+  height: auto;
+  flex: 100;
+}
+#calcBorderBox #calculatorBox #numPad button {
+  display: inline-block;
+  width: 30%;
+  height: 5em;
+  text-align: center;
+  border-style: solid;
+}
+#calcBorderBox #calculatorBox #numCeil {
+  height: 5em;
+  border-style: dotted;
+  border-color: black;
+}
 
 /*# sourceMappingURL=main.css.map */

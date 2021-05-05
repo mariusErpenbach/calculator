@@ -10,27 +10,29 @@
 <body>
     <div id="calcBorderBox">
     <div id="calculatorBox">
-      
-        <div id="arithmeticPad">
-            <div class="arithmeticSymbol">+</div>
-            <div class="arithmeticSymbol">-</div>
-            <div class="arithmeticSymbol">x</div>
-            <div class="arithmeticSymbol">/</div>
+        <form id="numPad">
+            <button class="inputNumber">9</button>
+            <button class="inputNumber">8</button>
+            <button class="inputNumber">7</button>
+            <button class="inputNumber">6</button>
+            <button class="inputNumber">5</button>
+            <button class="inputNumber">4</button>
+            <button class="inputNumber">3</button>
+            <button class="inputNumber">2</button>
+            <button class="inputNumber">1</button>
+            <button class="inputNumber">0</button>
+            <button class="arithmeticSymbol">+</button>
+            <button class="arithmeticSymbol">-</button>
+            <button class="arithmeticSymbol">x</button>
+            <button class="arithmeticSymbol">/</button> 
+            <button class="arithmeticSymbol" id="equalButton">=</button>
+        </form>
+        <div id="numCeil">
+            <div id="input"></div>
+            <div id="output"></div>
         </div>
-        <div id="numPad">
-            <div class="inputNumber">0</div>
-            <div class="inputNumber">1</div>
-            <div class="inputNumber">2</div>
-            <div class="inputNumber">3</div>
-            <div class="inputNumber">4</div>
-            <div class="inputNumber">5</div>
-            <div class="inputNumber">6</div>
-            <div class="inputNumber">7</div>
-            <div class="inputNumber">8</div>
-            <div class="inputNumber">9</div>
-        </div>
-        <div id="numCeil"></div>
     </div>
     </div>
+    <script src="scripts/calculator.js"></script>
 </body>
 </html>
